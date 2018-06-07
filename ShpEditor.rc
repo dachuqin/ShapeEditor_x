@@ -1,0 +1,963 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ShpEditor.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Mac OS X Modern Icon 3.ico"
+IDR_SHPEDITYPE          ICON    DISCARDABLE     "res\\ShpEditorDoc.ico"
+IDI_ICON_GLOBE          ICON    DISCARDABLE     "res\\network.ico"
+IDI_ICON_POLYGON        ICON    DISCARDABLE     "res\\icon_pol.ico"
+IDI_TREEBOOT            ICON    DISCARDABLE     "res\\icon8.ico"
+IDI_GLOBE2              ICON    DISCARDABLE     "res\\GLOBE.ICO"
+IDI_PROPERTY            ICON    DISCARDABLE     "res\\icon9.ico"
+IDI_BIG_ARC             ICON    DISCARDABLE     "res\\BigArc.ico"
+IDI_SMALL_ARC           ICON    DISCARDABLE     "res\\SmallArc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_EDITOR              BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\globe_6.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\pan_2.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\pointer_large.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "res\\pointer_with_selection.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "res\\UNDO.BMP"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "res\\zoom_in_tool_1.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "res\\zoom_out_tool_1.bmp"
+IDR_MAP_TOOLS           BITMAP  DISCARDABLE     "res\\map_tool.bmp"
+IDB_STATUS_BITMAP       BITMAP  DISCARDABLE     "res\\bitmap8.bmp"
+IDB_LAYER_DELETE        BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_LAYER_ADD           BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_VISIBLE             BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_HIDE                BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+IDB_TREEBOOT            BITMAP  DISCARDABLE     "res\\layers_2.bmp"
+IDB_SKETCH              BITMAP  DISCARDABLE     "res\\bitmap9.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "res\\ArcView_theme_properties.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "res\\SmallArc.bmp"
+IDB_BIG_ARC             BITMAP  DISCARDABLE     "res\\BigArc.bmp"
+IDB_SMALL_ARC           BITMAP  DISCARDABLE     "res\\small_ar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_FILE_NEWSHP
+    BUTTON      ID_FILE_ADDSHP
+    BUTTON      ID_ADD_REFERENCE
+    BUTTON      ID_FILE_SAVESHP
+    SEPARATOR
+    BUTTON      ID_EDITOR_CUT
+    BUTTON      ID_EDITOR_COPY
+    BUTTON      ID_EDITOR_PASTE
+    BUTTON      ID_EDITOR_DELETE
+    SEPARATOR
+    BUTTON      ID_EDITOR_UNDO
+    BUTTON      ID_EDITOR_REDO
+    SEPARATOR
+    BUTTON      ID_EDITOR_VISIBLE
+    SEPARATOR
+    BUTTON      ID_LAYER_PROPERTY
+END
+
+IDR_EDITOR TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_EDITOR_MENU
+    BUTTON      ID_EDITOR_SELECT
+    BUTTON      ID_EDITOR_SNAPPING
+    SEPARATOR
+    BUTTON      ID_EDITOR_SKECTH_POLYGON
+    BUTTON      ID_EDITOR_SKETCH_ARC
+    SEPARATOR
+    BUTTON      ID_EDITOR_CUT_FEATURE
+    BUTTON      ID_EDITOR_DIVIDE
+    BUTTON      ID_EDITOR_MERGE
+    BUTTON      ID_EDITOR_CLIP
+    BUTTON      ID_EDITOR_BUFFER
+    SEPARATOR
+    BUTTON      ID_EDITOR_PROPERTY
+    BUTTON      ID_EDITOR_EXCHANGE_LAYER_INDEX
+END
+
+IDR_MAP_TOOLS TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_MAP_ZOOMIN
+    BUTTON      ID_MAP_ZOOMOUT
+    BUTTON      ID_MAP_PAN
+    BUTTON      ID_MAP_FULLEXTENT
+    BUTTON      ID_MAP_SELECT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",            ID_FILE_NEWSHP
+        MENUITEM "加入编辑层(&O)...\tCtrl+O",   ID_FILE_ADDSHP
+        MENUITEM "加入参考层(&I)...\tCtrl+I",   ID_ADD_REFERENCE
+        MENUITEM SEPARATOR
+        MENUITEM "保存(&S)\tCtrl+S",            ID_FILE_SAVESHP
+        MENUITEM "另存为(&A)...",               ID_FILE_SAVESHP_AS
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",            ID_EDITOR_UNDO
+        MENUITEM "重做(R)\tCtrl+R",             ID_EDITOR_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",            ID_EDITOR_CUT
+        MENUITEM "复制(&C)\tCtrl+C",            ID_EDITOR_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",            ID_EDITOR_PASTE
+    END
+    POPUP "查看(&V)"
+    BEGIN
+        MENUITEM "主工具栏(&T)",                ID_VIEW_TOOLBAR
+        MENUITEM "浏览工具栏",                  ID_TOOLS_VISIBLE
+        MENUITEM "编辑器栏",                    ID_EDITOR_VISIBLE
+        MENUITEM "状态栏(&S)",                  ID_VIEW_STATUS_BAR
+        MENUITEM "图层管理器窗口",              ID_LAYER_MANAGE
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 面编辑工具(&A)...",      ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_EDITOR MENU DISCARDABLE 
+BEGIN
+    POPUP "编辑器"
+    BEGIN
+        MENUITEM "开始编辑",                    ID_EDITOR_STAR
+        MENUITEM "停止编辑",                    ID_EDITOR_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "移动(&M)",                    ID_EDITOR_MOVE
+        MENUITEM "切割(&I)",                    ID_EDITOR_CUT_FEATURE
+        MENUITEM "裁剪(&S)",                    ID_EDITOR_CLIP
+        MENUITEM "拆散(&B)",                    ID_EDITOR_DIVIDE
+        MENUITEM "缓冲区(&F)",                  ID_EDITOR_BUFFER
+        MENUITEM "合并(&O)",                    ID_EDITOR_MERGE
+        MENUITEM "联合(&U)",                    ID_EDITOR_UNION
+        MENUITEM "交集(&T)",                    ID_EDITOR_INTERSECT
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&X)",                    ID_EDITOR_CUT
+        MENUITEM "复制(&C)",                    ID_EDITOR_COPY
+        MENUITEM "粘贴(&V)",                    ID_EDITOR_PASTE
+        MENUITEM "删除(Del)",                   ID_EDITOR_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "捕捉(&N)",                    ID_EDITOR_SNAPPING
+    END
+END
+
+IDR_LAYER_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "manage"
+    BEGIN
+        MENUITEM "加入编辑层",                  ID_FILE_ADDSHP
+        MENUITEM "加入参考层",                  ID_ADD_REFERENCE
+        MENUITEM "删除层",                      ID_FILE_DELLAYER
+        MENUITEM SEPARATOR
+        MENUITEM "填充符号",                    ID_LAYER_SYMBOL
+        MENUITEM "显示标志",                    ID_LAYER_SHOW_LABEL
+    END
+END
+
+IDR_MENU_DRAW_ARC MENU DISCARDABLE 
+BEGIN
+    POPUP "画图右键"
+    BEGIN
+        MENUITEM "绝对 X，Y(&P)\tCtrl+P",       ID_DRAW_COORDINATE
+        MENUITEM "偏移量",                      ID_DRAW_OFFSET
+        MENUITEM SEPARATOR
+        MENUITEM "终点/半径",                   ID_DRAW_RADIUS
+        MENUITEM SEPARATOR
+        MENUITEM "结束画图(&E)\tCtrl+E",        ID_DRAW_FINISH
+        MENUITEM "删除草图(&D)\tCtrl+D",        ID_DRAW_DELETE_SKETCH
+        MENUITEM SEPARATOR
+        MENUITEM "取消菜单\tCtr+Q",             ID_DRAW_CONCEL_MENU
+    END
+END
+
+IDR_MENU_DRAW_POLYGON MENU DISCARDABLE 
+BEGIN
+    POPUP "POLYGON"
+    BEGIN
+        MENUITEM "绝对 X,Y(&T)\tCtrl+T",        ID_DRAW_COORDINATE
+        MENUITEM "偏移量",                      ID_DRAW_OFFSET
+        MENUITEM SEPARATOR
+        MENUITEM "结束画图(&F)\tCtrl+F",        ID_DRAW_FINISH
+        MENUITEM "删除草图(&D)\tCtrl+D",        ID_DRAW_DELETE_SKETCH
+        MENUITEM SEPARATOR
+        MENUITEM "取消菜单\tCtr+Q",             ID_DRAW_FINISH
+    END
+END
+
+IDR_MENU_SKETCH MENU DISCARDABLE 
+BEGIN
+    POPUP "DrawPolygon"
+    BEGIN
+        MENUITEM "多边形",                      ID_EDITOR_SKECTH_POLYGON
+        MENUITEM "画弧",                        ID_EDITOR_SKETCH_ARC
+    END
+END
+
+IDR_MENU_MODIFY_FEATURE MENU DISCARDABLE 
+BEGIN
+    POPUP "ModifyFeature"
+    BEGIN
+        MENUITEM "插入顶点(&I)",                ID_EDITOR_MODIFY_INSERT_VERTEX
+
+        MENUITEM "删除顶点(&D)",                ID_EDITOR_MODIFY_DELETE_VERTEX
+
+        MENUITEM SEPARATOR
+        MENUITEM "取消上一步(ESC)",             ID_EDITOR_MODIFY_BACK
+        MENUITEM "取消修改(&Q)",                ID_EDITOR_MODIFY_CANCEL
+    END
+END
+
+IDR_MENU_SELECT MENU DISCARDABLE 
+BEGIN
+    POPUP "选中后的右件"
+    BEGIN
+        MENUITEM "剪切(&X)\tCtrl+X",            ID_EDITOR_CUT
+        MENUITEM "复制(&C)\tCtrl+C",            ID_EDITOR_COPY
+        MENUITEM "粘贴(&V)\tCtrl+V",            ID_EDITOR_PASTE
+        MENUITEM "删除\tDel",                   ID_EDITOR_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "属性(&P)\tCtrl+P",            ID_EDITOR_PROPERTY
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDITOR_COPY,         VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_DRAW_DELETE_SKETCH,  VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEWSHP,         VIRTKEY, CONTROL, NOINVERT
+    "Q",            ID_DRAW_CONCEL_MENU,    VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVESHP,        VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDITOR_PASTE,        VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDITOR_DELETE,       VIRTKEY, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDITOR_CUT,          VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDITOR_UNDO,         VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 ShpEditor"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "面编辑工具 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_SHPEDITOR_FORM DIALOG DISCARDABLE  0, 0, 320, 200
+STYLE WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_MAPCONTROL,"{C552EA94-6FBB-11D5-A9C1-00104BB6FC1C}",
+                    WS_TABSTOP,0,0,319,199
+END
+
+IDD_WELLCOM_DLG DIALOG DISCARDABLE  0, 0, 171, 120
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "欢迎使用图层编辑器"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,28,99,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,93,99,50,14
+    GROUPBOX        "开始",IDC_STATIC,7,7,157,84
+    CONTROL         "新建并打开一个参考图层",IDC_RADIO1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,48,28,104,10
+    CONTROL         "打开一个已经存在的图层",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,48,56,104,10
+    ICON            151,IDC_STATIC,17,25,20,20
+    ICON            150,IDC_STATIC,17,51,20,20
+END
+
+IDD_DISTANCE DIALOG DISCARDABLE  0, 0, 66, 37
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "缓冲距离"
+FONT 10, "新宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,3,19,30,14
+    PUSHBUTTON      "取消",IDCANCEL,34,19,29,14
+    EDITTEXT        IDC_DISTANCE,3,3,60,12,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 175, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "剪切"
+FONT 10, "新宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,118,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,118,24,50,14
+    LTEXT           "缓冲距离 :",IDC_STATIC,7,14,37,8
+    EDITTEXT        IDC_DISTANCE,50,14,48,12,ES_AUTOHSCROLL
+    GROUPBOX        "剪切要素方法",IDC_STATIC,7,40,110,46
+    CONTROL         "保留相交的区域",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,16,53,72,10
+    CONTROL         "删除相交的区域",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,15,68,82,10
+END
+
+IDD_COORDINATE DIALOG DISCARDABLE  0, 0, 122, 36
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "当前点绝对坐标"
+FONT 10, "新宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,75,3,42,14
+    PUSHBUTTON      "取消",IDCANCEL,75,18,42,14
+    LTEXT           "X:",IDC_STATIC,2,3,10,8
+    EDITTEXT        IDC_EDIT_X,16,3,52,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,2,23,12,8
+    EDITTEXT        IDC_EDIT_Y,16,21,52,12,ES_AUTOHSCROLL
+END
+
+IDD_DRAW_ARC DIALOG DISCARDABLE  0, 0, 175, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "弧面属性"
+FONT 10, "新宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,36,120,39,12
+    PUSHBUTTON      "取消",IDCANCEL,89,120,39,12
+    GROUPBOX        "起点",IDC_STATIC,2,2,82,40
+    LTEXT           "X:",IDC_STATIC,6,14,10,8
+    EDITTEXT        IDC_FROM_X,18,12,63,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,6,28,10,8
+    EDITTEXT        IDC_FROM_Y,18,26,63,12,ES_AUTOHSCROLL
+    GROUPBOX        "终点",IDC_STATIC,91,2,81,41
+    LTEXT           "X:",IDC_STATIC,95,15,10,8
+    EDITTEXT        IDC_TO_X,106,13,63,12,ES_AUTOHSCROLL
+    LTEXT           "Y:",IDC_STATIC,95,29,10,8
+    EDITTEXT        IDC_TO_Y,106,27,63,12,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,2,45,170,25
+    EDITTEXT        IDC_RADIUS,37,54,77,12,ES_AUTOHSCROLL
+    LTEXT           "米",IDC_STATIC,121,56,12,8
+    CONTROL         "顺时针方向",IDC_CLOCKWISE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,10,88,56,10
+    CONTROL         "逆时针方向",IDC_CLOCKWISE2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,10,101,56,10
+    GROUPBOX        "弧线方向",IDC_STATIC,2,74,75,43,WS_GROUP
+    GROUPBOX        "弧线类型",IDC_STATIC,85,75,87,41,WS_GROUP
+    CONTROL         " 小 弧",IDC_SMALL_ARC,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,86,89,37,10
+    CONTROL         " 大 弧 ",IDC_BIG_ARC,"Button",BS_AUTORADIOBUTTON | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,87,103,37,13
+    CONTROL         256,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,138,
+                    84,14,15
+    CONTROL         255,IDC_STATIC,"Static",SS_BITMAP,138,100,14,15
+    LTEXT           "半径 :",IDC_STATIC,9,56,25,8
+END
+
+IDD_SNAPING DIALOG DISCARDABLE  0, 0, 125, 46
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "捕获方法"
+FONT 10, "新宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,68,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,68,23,50,14
+    CONTROL         "点",IDC_SNAP_POINT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,8,37,10
+    CONTROL         "边线",IDC_SNAP_LINE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,24,36,10
+    GROUPBOX        "",IDC_STATIC,7,2,56,37
+END
+
+IDD_ADD_FIELDS DIALOG DISCARDABLE  0, 0, 223, 148
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "新宋体"
+BEGIN
+    DEFPUSHBUTTON   "保存",IDOK,23,130,31,14
+    PUSHBUTTON      "取消",IDCANCEL,54,130,30,14
+    LTEXT           "字段 :",IDC_STATIC,15,27,25,8
+    EDITTEXT        IDC_EDIT_FIELD,41,23,60,12,ES_AUTOHSCROLL
+    GROUPBOX        "字段类型",IDC_STATIC,7,7,105,72
+    COMBOBOX        IDC_COMBO_FIELD_TYPE,41,46,60,80,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "类型 :",IDC_STATIC,15,51,25,8
+    PUSHBUTTON      "添 加",IDC_BUTTON_ADD,11,105,31,14
+    CONTROL         "List3",IDC_LIST_FIELDS,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,117,4,102,140
+    PUSHBUTTON      "删 除",IDC_DLETE,72,105,31,14
+    GROUPBOX        "",IDC_STATIC,3,0,112,145
+    PUSHBUTTON      "修 改",IDC_MODIFY,41,105,31,14
+END
+
+IDD_FEATURE_PROPERTY DIALOG DISCARDABLE  0, 0, 190, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "要素属性"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "保 存",IDOK,14,145,50,14
+    PUSHBUTTON      "取 消",IDCANCEL,64,145,50,14
+    CONTROL         "Custom1",IDC_GRID,"MFCGridCtrl",WS_TABSTOP,7,7,176,133
+    PUSHBUTTON      "退 出",IDC_EXIT,114,145,50,14
+END
+
+IDD_MERGE_DLG DIALOG DISCARDABLE  0, 0, 245, 140
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择要保留的图形属性"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确 定",IDOK,67,119,38,14
+    PUSHBUTTON      "取 消",IDCANCEL,141,119,38,14
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,7,231,108
+END
+
+IDD_SELECT_LABEL DIALOG DISCARDABLE  0, 0, 155, 111
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "指定图层显示的字段"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确 定",IDOK,112,7,36,14
+    PUSHBUTTON      "取 消",IDCANCEL,112,24,36,14
+    LISTBOX         IDC_LISTBOX,7,7,92,97,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ShpEditor Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ShpEditor\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ShpEditor.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "ShpEditor 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_WELLCOM_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 113
+    END
+
+    IDD_DISTANCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 63
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 33
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_COORDINATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 117
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 33
+    END
+
+    IDD_DRAW_ARC, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 172
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 132
+    END
+
+    IDD_SNAPING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 118
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 39
+    END
+
+    IDD_FEATURE_PROPERTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_MERGE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 238
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_SELECT_LABEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 148
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SHPEDITOR_FORM DLGINIT
+BEGIN
+    IDC_MAPCONTROL, 0x376, 1708, 0
+0x0000, 0x0000, 0x0009, 0x0000, 0x0002, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x8200, 0x0031, 0xe700, 0x001e, 0x0000, 0x0100, 0x0000, 0x0100, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0d00, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0xff00, 0x00ff, 
+0xffff, 0xaa76, 0xe6bd, 0x4d35, 0x11d0, 0xbe98, 0x8000, 0x7c5f, 0x21ed, 
+0x0000, 0x0000, 0x001d, 0x0008, 0x0000, 0x004d, 0x0061, 0x0070, 0x0000, 
+0x0002, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0xffff, 0xffff, 0xbb83, 0x9646, 0x9512, 
+0x11d2, 0xf6a2, 0x0008, 0xb609, 0x2bf2, 0x0001, 0x0000, 0x0006, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0014, 0x0000, 0x003c, 0x0044, 0x0065, 0x0066, 
+0x0061, 0x0075, 0x006c, 0x0074, 0x003e, 0x0000, 0xffff, 0xffff, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0003, 
+0x0000, 0x0001, 0x0000, 0x0001, 0x0000, 0x3972, 0xce8f, 0xe9be, 0x11d1, 
+0x32a2, 0x0008, 0xb609, 0x2bf2, 0x0002, 0x0000, 0x0004, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x7a80, 0xa6a8, 0x1dd1, 0x11b2, 0x51bf, 0x0008, 0x2220, 0x73f5, 0x0003, 
+0x0000, 0x0004, 0x00a8, 0x0000, 0x4547, 0x474f, 0x5343, 0x225b, 0x4347, 
+0x5f53, 0x6f4e, 0x7472, 0x5f68, 0x6d41, 0x7265, 0x6369, 0x6e61, 0x315f, 
+0x3239, 0x2237, 0x442c, 0x5441, 0x4d55, 0x225b, 0x5f44, 0x6f4e, 0x7472, 
+0x5f68, 0x6d41, 0x7265, 0x6369, 0x6e61, 0x315f, 0x3239, 0x2237, 0x532c, 
+0x4850, 0x5245, 0x494f, 0x5b44, 0x4322, 0x616c, 0x6b72, 0x5f65, 0x3831, 
+0x3636, 0x2c22, 0x3336, 0x3837, 0x3032, 0x2e36, 0x2c34, 0x3932, 0x2e34, 
+0x3739, 0x3638, 0x3839, 0x5d32, 0x2c5d, 0x5250, 0x4d49, 0x4d45, 0x225b, 
+0x7247, 0x6565, 0x776e, 0x6369, 0x2268, 0x302c, 0x302e, 0x2c5d, 0x4e55, 
+0x5449, 0x225b, 0x6544, 0x7267, 0x6565, 0x2c22, 0x2e30, 0x3130, 0x3437, 
+0x3335, 0x3932, 0x3532, 0x3931, 0x3439, 0x3333, 0x5d5d, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 
+0xf800, 0x017f, 0x0000, 0x0000, 0xf800, 0x017f, 0x0000, 0x0000, 0xf800, 
+0x017f, 0x0000, 0x0000, 0xf800, 0x017f, 0x0000, 0x0000, 0xf800, 0x017f, 
+0x0000, 0x0000, 0xf800, 0x017f, 0x0000, 0x0000, 0xf800, 0x017f, 0x0000, 
+0x0000, 0xf800, 0x017f, 0x0000, 0x0000, 0xf800, 0x027f, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x8f40, 0x0040, 0x0000, 0x0000, 0x8f40, 0x0040, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0xff00, 0x00ff, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x4000, 0x352f, 0x8e1c, 0xd329, 0x9f11, 
+0x004f, 0x4fc0, 0xc66b, 0x0419, 0x0000, 0x0100, 0x0600, 0x0921, 0x8e14, 
+0xe398, 0x06bf, 0x0921, 0x8e14, 0xe398, 0x003f, 0x0000, 0x0000, 0xe000, 
+0x003f, 0x0000, 0x0000, 0x0800, 0x0040, 0x0000, 0x0000, 0x0008, 0x0000, 
+0xff00, 0x00ff, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0xff00, 
+0xffff, 0x00ff, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x2000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0200, 0x0000, 0x0000, 0x0000, 
+0x1c00, 0x6194, 0x8ad6, 0xd3da, 0x9f11, 0x0060, 0x4fc0, 0xdd6b, 0x057f, 
+0x0000, 0x0100, 0xa800, 0x0001, 0x4700, 0x4f45, 0x5447, 0x4152, 0x5b4e, 
+0x4e22, 0x4441, 0x315f, 0x3239, 0x5f37, 0x6f54, 0x4e5f, 0x4441, 0x315f, 
+0x3839, 0x5f33, 0x414e, 0x4344, 0x4e4f, 0x2c22, 0x4547, 0x474f, 0x5343, 
+0x225b, 0x4347, 0x5f53, 0x6f4e, 0x7472, 0x5f68, 0x6d41, 0x7265, 0x6369, 
+0x6e61, 0x315f, 0x3239, 0x2237, 0x442c, 0x5441, 0x4d55, 0x225b, 0x5f44, 
+0x6f4e, 0x7472, 0x5f68, 0x6d41, 0x7265, 0x6369, 0x6e61, 0x315f, 0x3239, 
+0x2237, 0x532c, 0x4850, 0x5245, 0x494f, 0x5b44, 0x4322, 0x616c, 0x6b72, 
+0x5f65, 0x3831, 0x3636, 0x2c22, 0x3336, 0x3837, 0x3032, 0x2e36, 0x2c34, 
+0x3932, 0x2e34, 0x3739, 0x3638, 0x3839, 0x5d32, 0x2c5d, 0x5250, 0x4d49, 
+0x4d45, 0x225b, 0x7247, 0x6565, 0x776e, 0x6369, 0x2268, 0x302c, 0x302e, 
+0x2c5d, 0x4e55, 0x5449, 0x225b, 0x6544, 0x7267, 0x6565, 0x2c22, 0x2e30, 
+0x3130, 0x3437, 0x3335, 0x3932, 0x3532, 0x3931, 0x3439, 0x3333, 0x5d5d, 
+0x472c, 0x4f45, 0x4347, 0x5b53, 0x4722, 0x5343, 0x4e5f, 0x726f, 0x6874, 
+0x415f, 0x656d, 0x6972, 0x6163, 0x5f6e, 0x3931, 0x3338, 0x2c22, 0x4144, 
+0x5554, 0x5b4d, 0x4422, 0x4e5f, 0x726f, 0x6874, 0x415f, 0x656d, 0x6972, 
+0x6163, 0x5f6e, 0x3931, 0x3338, 0x2c22, 0x5053, 0x4548, 0x4f52, 0x4449, 
+0x225b, 0x5247, 0x5f53, 0x3931, 0x3038, 0x2c22, 0x3336, 0x3837, 0x3331, 
+0x2e37, 0x2c30, 0x3932, 0x2e38, 0x3532, 0x3237, 0x3232, 0x3031, 0x5d31, 
+0x2c5d, 0x5250, 0x4d49, 0x4d45, 0x225b, 0x7247, 0x6565, 0x776e, 0x6369, 
+0x2268, 0x302c, 0x302e, 0x2c5d, 0x4e55, 0x5449, 0x225b, 0x6544, 0x7267, 
+0x6565, 0x2c22, 0x2e30, 0x3130, 0x3437, 0x3335, 0x3932, 0x3532, 0x3931, 
+0x3439, 0x3333, 0x5d5d, 0x4d2c, 0x5445, 0x4f48, 0x5b44, 0x4e22, 0x4441, 
+0x4f43, 0x224e, 0x2c5d, 0x4150, 0x4152, 0x454d, 0x4554, 0x5b52, 0x4422, 
+0x7461, 0x7361, 0x7465, 0x635f, 0x6e6f, 0x7375, 0x2c22, 0x2e30, 0x5d30, 
+0x015d, 0x0000, 0x1c00, 0x6194, 0x8ad6, 0xd3da, 0x9f11, 0x0060, 0x4fc0, 
+0xdd6b, 0x057f, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x5600, 0xc73d, 
+0x88e0, 0x8c6c, 0xb749, 0x787c, 0x6e60, 0x8c68, 0x0697, 0x0000, 0x0200, 
+0x0000, 0x9600, 0xe9c4, 0x237e, 0xd0d1, 0x8311, 0x0883, 0x0900, 0x96b9, 
+0x07cc, 0x0000, 0x0100, 0x0100, 0x0000, 0x1ce2, 0xac58, 0x4604, 0x404c, 
+0x1705, 0x5168, 0x3990, 0x4053, 0xa283, 0xd4b8, 0x069e, 0x4051, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x4000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x7212, 0x3070, 0x52d5, 0x11d0, 0xf2a8, 0x6000, 0x858c, 
+0xe5ed, 0x0008, 0x0000, 0x0003, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4000, 0x408f, 0x0000, 0x0000, 
+0x4000, 0x408f, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x7212, 0x3070, 0x52d5, 0x11d0, 0xf2a8, 0x6000, 
+0x858c, 0xe5ed, 0x0009, 0x0000, 0x0003, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4000, 0x408f, 0x0000, 
+0x0000, 0x4000, 0x408f, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0002, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x01f4, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// CUR
+//
+
+IDR_USER_NORMAL         CUR     DISCARDABLE     "res\\edit_tool.bin"
+IDR_USER_CROSS          CUR     DISCARDABLE     "res\\Cross.bin"
+IDR_USER_MODIFY         CUR     DISCARDABLE     "res\\Modify.bin"
+IDR_USER_MOVE1          CUR     DISCARDABLE     "res\\edit_tool_move.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "ShpEditor\n\nShpEdi\n\n\nShpEditor.Document\nShpEdi Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ShpEditor"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "建立新文档\n新建"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "将活动文档以一个新文件名保存\n另存为"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "打开该文档"
+    ID_FILE_MRU_FILE2       "打开该文档"
+    ID_FILE_MRU_FILE3       "打开该文档"
+    ID_FILE_MRU_FILE4       "打开该文档"
+    ID_FILE_MRU_FILE5       "打开该文档"
+    ID_FILE_MRU_FILE6       "打开该文档"
+    ID_FILE_MRU_FILE7       "打开该文档"
+    ID_FILE_MRU_FILE8       "打开该文档"
+    ID_FILE_MRU_FILE9       "打开该文档"
+    ID_FILE_MRU_FILE10      "打开该文档"
+    ID_FILE_MRU_FILE11      "打开该文档"
+    ID_FILE_MRU_FILE12      "打开该文档"
+    ID_FILE_MRU_FILE13      "打开该文档"
+    ID_FILE_MRU_FILE14      "打开该文档"
+    ID_FILE_MRU_FILE15      "打开该文档"
+    ID_FILE_MRU_FILE16      "打开该文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "删除被选对象\n删除"
+    ID_EDIT_CLEAR_ALL       "全部删除\n全部删除"
+    ID_EDIT_COPY            "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的正文\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一步操作\n重复"
+    ID_EDIT_REPLACE         "用不同的正文替换指定的正文\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n选择全部"
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+    ID_EDIT_REDO            "重新执行先前已撤消的操作\n重新执行"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n显隐工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDITOR_SNAPPING      "捕捉一个图形的极点/边线\n捕捉"
+    ID_MAP_ZOOMIN           "放大图层\n放大"
+    ID_MAP_ZOOMOUT          "缩小图层\n缩小"
+    ID_MAP_PAN              "移动图层\n平移图层"
+    ID_MAP_FULLEXTENT       "显示整个图层\n显示全图"
+    ID_MAP_SELECT           "选择图层要素\n选择要素"
+    ID_EDITOR_COPY          "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDITOR_PASTE         "插入剪贴板内容\n粘贴"
+    ID_EDITOR_DELETE        "删除被选对象\n删除"
+    ID_EDITOR_UNDO          "撤销上一步操作\n撤销"
+    ID_EDITOR_REDO          "重新执行先前已撤消的操作\n重新执行"
+    ID_ADD_REFERENCE        "导入一个参考图层\n导入参考层"
+    ID_EDITOR_VISIBLE       "显示/隐藏编辑工具条\n编辑工具条"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDITOR_MENU          "编辑菜单\n编辑菜单"
+    ID_EDITOR_SELECT        "选择要素操作\n选择"
+    ID_EDITOR_SKECTH_POLYGON "画多边形操作\n画多边形"
+    ID_EDITOR_MOVE          "移动图形\n移动图形"
+    ID_EDITOR_CUT           "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDITOR_BUFFER        "新建一个要素的缓冲区\n缓冲区"
+    ID_EDITOR_CLIP          "用当前选中的图形为参考图进行裁剪\n裁剪"
+    ID_EDITOR_INTERSECT     "得到两个图形相交的部分\n交集"
+    ID_EDITOR_MERGE         "合并图形\n合并图形"
+    ID_EDITOR_UNION         "用选中的图形合并成一个新的图形但不删除源图形\n联合"
+    ID_EDITOR_DIVIDE        "把由多部份组成的要素拆散\n拆散"
+    ID_EDITOR_STOP          "停止编辑\n停止编辑"
+    ID_EDITOR_STAR          "开始编辑\n开始编辑"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_ADDSHP          "导入一个可以编辑的图层\n导入编辑层"
+    ID_FILE_NEWSHP          "新建一个文档\n新建"
+    ID_FILE_SAVESHP         "保存当前文档\n保存"
+    ID_FILE_SAVESHP_AS      "将当前编辑的图层另外建一个文件名保存起来"
+    ID_EDITOR_CUT_FEATURE   "划线把要素切割成多个要素\n切割"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDITOR_SKETCH_CIRCLE "画圆\n画圆"
+    ID_EDITOR_SKETCH_ARC    "确定弧线两个端点画弧\n画弧"
+    ID_EDITOR_SKETCH_ARC2   "确定弧线一端和弧上一点画弧\n画弧"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDITOR_MODIFY_BACK   "取消上一步的修改"
+    ID_EDITOR_PROPERTY      "查看\\修改选中要素的属性\n要素属性"
+    ID_LAYER_PROPERTY       "查看/修改图层属性\n图层属性"
+    ID_EDITOR_EXCHANGE_INDEX "交换编辑层和参考层的覆盖关系\n交换图层"
+    ID_EDITOR_EXCHANGE_LAYER_INDEX 
+                            "交换编辑层和参考层的覆盖关系\n交换图层次序"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ShpEditor.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
